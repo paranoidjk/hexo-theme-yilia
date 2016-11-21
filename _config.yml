@@ -1,28 +1,25 @@
 # Header
 
 menu:
-  主页: /
-  随笔: /tags/随笔
+  文章·article: /archives
+  生活·douban: /douban
+  玩物·demo: /demo
 
 # SubNav
 subnav:
-  github: "#"
-  weibo: "#"
-  rss: "#"
-  zhihu: "#"
-  #douban: "#"
-  #mail: "#"
-  #facebook: "#"
-  #google: "#"
-  #twitter: "#"
-  #linkedin: "#"
+  weibo: "http://weibo.com/hust2012jiangkai"
+  rss: "/atom.xml"
+  zhihu: "http://www.zhihu.com/people/jiangkai-paranoid"
+  mail: "mailto:hust2012jiangkai@gamil.com"
+  instagram: "https://www.instagram.com/paranoid_jk/"
+  twitter: "https://twitter.com/jiang_paranoid"
+  linkedin: "https://www.linkedin.com/in/jiangkaicv"
 
-rss: /atom.xml
 
 # 是否需要修改 root 路径
 # 如果您的网站存放在子目录中，例如 http://yoursite.com/blog，
 # 请将您的 url 设为 http://yoursite.com/blog 并把 root 设为 /blog/。
-root: 
+# root:
 
 # Content
 excerpt_link: more
@@ -33,14 +30,14 @@ mathjax: false
 animate: true
 
 # 是否在新窗口打开链接
-open_in_new: false
+open_in_new: true
 
 # Miscellaneous
 google_analytics: ''
-favicon: /favicon.png
+favicon: "/img/favicon.png"
 
 #你的头像url
-avatar:
+avatar: "https://avatars3.githubusercontent.com/u/7971415?v=3&s=460"
 
 #是否开启分享
 share_jia: true
@@ -48,7 +45,7 @@ share_addthis: false
 
 #是否开启多说评论，填写你在多说申请的项目名称 duoshuo: duoshuo-key
 #若使用disqus，请在博客config文件中填写disqus_shortname，并关闭多说评论
-duoshuo: false
+duoshuo: paranoidjk
 
 # 如不需要，将该项置为false
 # 比如
@@ -61,12 +58,16 @@ smart_menu:
   friends: '友链'
   aboutme: '关于我'
 
-friends:
-  友情链接1: http://localhost:4000/
-  友情链接2: http://localhost:4000/
-  友情链接3: http://localhost:4000/
-  友情链接4: http://localhost:4000/
-  友情链接5: http://localhost:4000/
-  友情链接6: http://localhost:4000/
+#是否开启云标签
+tagcloud: true
 
-aboutme: 很惭愧<br><br>只做了一点微小的工作<br>谢谢大家
+#是否开启友情链接
+friends:
+  和我交换: "mailto:hust2012jiangkai@gamil.com"
+
+#是否开启“关于我”。
+aboutme: "「何须更问浮生事 只此浮生是梦中」"
+
+
+
+
